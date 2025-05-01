@@ -1,0 +1,368 @@
+[0] Payload: {'patient_id': "' OR 1=1 --"} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL 
+[1] Payload: {'patient_id': {}} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL 
+[2] Payload: {'patient_id': 99999999} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[3] Payload: {'patient_id': 99999999} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[4] Payload: {'patient_id': ''} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[5] Payload: {'patient_id': 'abc'} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[6] Payload: {'patient_id': -1} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[7] Payload: {'patient_id': 99999999} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[8] Payload: {'patient_id': []} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[9] Payload: {'patient_id': -1} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[10] Payload: {'patient_id': '😊'} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[11] Payload: {'patient_id': -1} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[12] Payload: {'patient_id': "' OR 1=1 --"} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[13] Payload: {'patient_id': []} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[14] Payload: {'patient_id': ''} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[15] Payload: {'patient_id': -1} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[16] Payload: {'patient_id': None} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[17] Payload: {'patient_id': ''} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[18] Payload: {'patient_id': 99999999} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[19] Payload: {'patient_id': None} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[20] Payload: {'patient_id': []} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[21] Payload: {'patient_id': 'abc'} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[22] Payload: {'patient_id': 1.5} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[23] Payload: {'patient_id': ''} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[24] Payload: {'patient_id': None} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[25] Payload: {'patient_id': ''} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[26] Payload: {'patient_id': "' OR 1=1 --"} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[27] Payload: {'patient_id': -1} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[28] Payload: {'patient_id': ''} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[29] Payload: {'patient_id': "' OR 1=1 --"} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[30] Payload: {'patient_id': None} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[31] Payload: {'patient_id': 99999999} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[32] Payload: {'patient_id': "' OR 1=1 --"} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[33] Payload: {'patient_id': 1.5} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[34] Payload: {'patient_id': ''} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[35] Payload: {'patient_id': {}} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[36] Payload: {'patient_id': 1.5} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[37] Payload: {'patient_id': []} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[38] Payload: {'patient_id': "' OR 1=1 --"} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[39] Payload: {'patient_id': None} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[40] Payload: {'patient_id': -1} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[41] Payload: {'patient_id': -1} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[42] Payload: {'patient_id': 99999999} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[43] Payload: {'patient_id': '😊'} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[44] Payload: {'patient_id': []} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[45] Payload: {'patient_id': 1.5} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[46] Payload: {'patient_id': ''} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[47] Payload: {'patient_id': '😊'} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[48] Payload: {'patient_id': ''} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+[49] Payload: {'patient_id': -1} → Status: 404, Body: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL
+PS C:\Users\djr17\Desktop\New> python .\fuzz_api.py
+[0] Payload: {'patient_id': ''} → Status: 200, Body: []
+
+[1] Payload: {'patient_id': []} → Status: 500, Body: {
+  "message": "Unable to find the corresponding data at the time. Please try again later"
+}
+
+[2] Payload: {'patient_id': 'abc'} → Status: 200, Body: []
+
+[3] Payload: {'patient_id': -1} → Status: 200, Body: []
+
+[4] Payload: {'patient_id': 'abc'} → Status: 200, Body: []
+
+[5] Payload: {'patient_id': -1} → Status: 200, Body: []
+
+[6] Payload: {'patient_id': ''} → Status: 200, Body: []
+
+[7] Payload: {'patient_id': ''} → Status: 200, Body: []
+
+[8] Payload: {'patient_id': 99999999} → Status: 200, Body: []
+
+[9] Payload: {'patient_id': -1} → Status: 200, Body: []
+
+[10] Payload: {'patient_id': None} → Status: 200, Body: []
+
+[11] Payload: {'patient_id': -1} → Status: 200, Body: []
+
+[12] Payload: {'patient_id': 1.5} → Status: 200, Body: []
+
+[13] Payload: {'patient_id': 'abc'} → Status: 200, Body: []
+
+[14] Payload: {'patient_id': 'abc'} → Status: 200, Body: []
+
+[15] Payload: {'patient_id': '😊'} → Status: 200, Body: []
+
+[16] Payload: {'patient_id': 99999999} → Status: 200, Body: []
+
+[17] Payload: {'patient_id': ''} → Status: 200, Body: []
+
+[18] Payload: {'patient_id': '😊'} → Status: 200, Body: []
+
+[19] Payload: {'patient_id': "' OR 1=1 --"} → Status: 200, Body: []
+
+[20] Payload: {'patient_id': 1.5} → Status: 200, Body: []
+
+[21] Payload: {'patient_id': None} → Status: 200, Body: []
+
+[22] Payload: {'patient_id': []} → Status: 500, Body: {
+  "message": "Unable to find the corresponding data at the time. Please try again later"
+}
+
+[23] Payload: {'patient_id': '😊'} → Status: 200, Body: []
+
+[24] Payload: {'patient_id': 'abc'} → Status: 200, Body: []
+
+[25] Payload: {'patient_id': 'abc'} → Status: 200, Body: []
+
+[26] Payload: {'patient_id': {}} → Status: 500, Body: {
+  "message": "Unable to find the corresponding data at the time. Please try again later"
+}
+
+[27] Payload: {'patient_id': '😊'} → Status: 200, Body: []
+
+[28] Payload: {'patient_id': {}} → Status: 500, Body: {
+  "message": "Unable to find the corresponding data at the time. Please try again later"
+}
+
+[29] Payload: {'patient_id': -1} → Status: 200, Body: []
+
+[30] Payload: {'patient_id': []} → Status: 500, Body: {
+  "message": "Unable to find the corresponding data at the time. Please try again later"
+}
+
+[31] Payload: {'patient_id': "' OR 1=1 --"} → Status: 200, Body: []
+
+[32] Payload: {'patient_id': {}} → Status: 500, Body: {
+  "message": "Unable to find the corresponding data at the time. Please try again later"
+}
+
+[33] Payload: {'patient_id': ''} → Status: 200, Body: []
+
+[34] Payload: {'patient_id': '😊'} → Status: 200, Body: []
+
+[35] Payload: {'patient_id': []} → Status: 500, Body: {
+  "message": "Unable to find the corresponding data at the time. Please try again later"
+}
+
+[36] Payload: {'patient_id': '😊'} → Status: 200, Body: []
+
+[37] Payload: {'patient_id': ''} → Status: 200, Body: []
+
+[38] Payload: {'patient_id': ''} → Status: 200, Body: []
+
+[39] Payload: {'patient_id': "' OR 1=1 --"} → Status: 200, Body: []
+
+[40] Payload: {'patient_id': -1} → Status: 200, Body: []
+
+[41] Payload: {'patient_id': None} → Status: 200, Body: []
+
+[42] Payload: {'patient_id': -1} → Status: 200, Body: []
+
+[43] Payload: {'patient_id': 'abc'} → Status: 200, Body: []
+
+[44] Payload: {'patient_id': '😊'} → Status: 200, Body: []
+
+[45] Payload: {'patient_id': []} → Status: 500, Body: {
+  "message": "Unable to find the corresponding data at the time. Please try again later"
+}
+
+[46] Payload: {'patient_id': 1.5} → Status: 200, Body: []
+
+[47] Payload: {'patient_id': -1} → Status: 200, Body: []      
+
+[47] Payload: {'patient_id': -1} → Status: 200, Body: []
+
+[48] Payload: {'patient_id': 1.5} → Status: 200, Body: []
+
+[49] Payload: {'patient_id': -1} → Status: 200, Body: []
