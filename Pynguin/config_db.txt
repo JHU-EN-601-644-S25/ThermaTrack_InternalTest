@@ -1,0 +1,4 @@
+PYNGUIN_DANGER_AWARE=1 pynguin   --project-path ./flask-cloud-server   --module-name config_db   --output-path ./test
+[16:19:56] WARNING  Unexpectedly had no exception name raised and no exception in context.   syntaxtree.py:221
+           WARNING  Unexpectedly had no exception name raised and no exception in context.   syntaxtree.py:221
+           WARNING  Unexpectedly had no exception name raised and no exception in context.   syntaxtree.py:221
