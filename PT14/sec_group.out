@@ -1,0 +1,285 @@
+{
+    "SecurityGroups": [
+        {
+            "GroupId": "sg-0c46d995f9df423eb",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "All access"
+                }
+            ],
+            "VpcId": "vpc-064268e34de044a33",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:711387133830:security-group/sg-0c46d995f9df423eb",
+            "OwnerId": "711387133830",
+            "GroupName": "free-db2-all-access",
+            "Description": "Access for Group1",
+            "IpPermissions": []
+        },
+        {
+            "GroupId": "sg-02c33d7093199b75f",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-064268e34de044a33",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:711387133830:security-group/sg-02c33d7093199b75f",
+            "OwnerId": "711387133830",
+            "GroupName": "launch-wizard-1",
+            "Description": "launch-wizard-1 created 2025-02-27T17:20:10.569Z",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0144d736a9ea9c33d",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-064268e34de044a33",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:711387133830:security-group/sg-0144d736a9ea9c33d",
+            "OwnerId": "711387133830",
+            "GroupName": "MySQLAccessGroup",
+            "Description": "Allows MySQL access from some IPs",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 0,
+                    "ToPort": 65535,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "Inbound access for aa",
+                            "CidrIp": "xxx.xxx.xxx.xx/32"
+                        },
+                        {
+                            "Description": "Inbound access for jd",
+                            "CidrIp": "xxx.xxx.xxx.xx/32"
+                        },
+                        {
+                            "Description": "Inbound access for my",
+                            "CidrIp": "xxx.xxx.xxx.xx/32"
+                        },
+                        {
+                            "Description": "my2",
+                            "CidrIp": "xxx.xxx.xxx.xx/32"
+                        },
+                        {
+                            "Description": "Bella",
+                            "CidrIp": "xxx.xxx.xxx.xx/32"
+                        },
+                        {
+                            "Description": "bel star",
+                            "CidrIp": "xxx.xxx.xxx.xx/32"
+                        },
+                        {
+                            "Description": "bel 2",
+                            "CidrIp": "xxx.xxx.xxx.xx/32"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "MySQL/Aurora all",
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-000cd2aa0e598a074",
+            "IpPermissionsEgress": [],
+            "VpcId": "vpc-064268e34de044a33",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:711387133830:security-group/sg-000cd2aa0e598a074",
+            "OwnerId": "711387133830",
+            "GroupName": "rds-rdsproxy-1",
+            "Description": "Security group attached to ttdb-1 to allow RDS Proxy with specific security groups attached to connect to the RDS database. Modification could lead to connection loss.",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [
+                        {
+                            "Description": "Rule to allow connections from RDS Proxy with sg-00fd485fa6177904f attached.",
+                            "UserId": "711387133830",
+                            "GroupId": "sg-00fd485fa6177904f"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0984497a1c199e748",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [
+                        {
+                            "Description": "Rule to allow connections to RDS Proxy from any Lambda function this security group is attached to.",
+                            "UserId": "711387133830",
+                            "GroupId": "sg-00fd485fa6177904f"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-064268e34de044a33",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:711387133830:security-group/sg-0984497a1c199e748",
+            "OwnerId": "711387133830",
+            "GroupName": "lambda-rdsproxy-1",
+            "Description": "Security group attached to Lambda function to allow them to securely connect to proxy-1740760619247-ttdb-1. Modification could lead to connection loss.",
+            "IpPermissions": []
+        },
+        {
+            "GroupId": "sg-00fd485fa6177904f",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [
+                        {
+                            "Description": "Rule to allow connections to RDS database from any RDS Proxy this security group is attached to.",
+                            "UserId": "711387133830",
+                            "GroupId": "sg-000cd2aa0e598a074"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-064268e34de044a33",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:711387133830:security-group/sg-00fd485fa6177904f",
+            "OwnerId": "711387133830",
+            "GroupName": "rdsproxy-lambda-1",
+            "Description": "Security group attached to proxy-1740760619247-ttdb-1 to allow Lambda function with specific security groups attached to connect to the RDS Proxy. Modification could lead to connection loss.",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3306,
+                    "ToPort": 3306,
+                    "UserIdGroupPairs": [
+                        {
+                            "Description": "Rule to allow connections from Lambda function with sg-0984497a1c199e748 attached.",
+                            "UserId": "711387133830",
+                            "GroupId": "sg-0984497a1c199e748"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-06f1327d2cd45d06a",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-064268e34de044a33",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:711387133830:security-group/sg-06f1327d2cd45d06a",
+            "OwnerId": "711387133830",
+            "GroupName": "default",
+            "Description": "default VPC security group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [
+                        {
+                            "UserId": "711387133830",
+                            "GroupId": "sg-06f1327d2cd45d06a"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        }
+    ]
+}
